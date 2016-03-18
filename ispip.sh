@@ -28,6 +28,13 @@ Old_crtc=$(date -d -30day +"%Y%m%d")_crtc.html
 Old_cmcc=$(date -d -30day +"%Y%m%d")_cmcc.html
 Old_othernet=$(date -d -30day +"%Y%m%d")_othernet.html
 
+re_unicom_cnc=$(date -d -1day +"%Y%m%d")_unicom_cnc.html
+re_chinatelecom=$(date -d -1day +"%Y%m%d")_chinatelecom.html
+re_cernet=$(date -d -1day +"%Y%m%d")_cernet.html
+re_crtc=$(date -d -1day +"%Y%m%d")_crtc.html
+re_cmcc=$(date -d -1day +"%Y%m%d")_cmcc.html
+re_othernet=$(date -d -1day +"%Y%m%d")_othernet.html
+
 # delete old exist file.
 if [ -e "$apnic_ip_info" ];then
 rm -f $apnic_ip_info
